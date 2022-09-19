@@ -1,0 +1,58 @@
+@font-face {
+  font-family: yekan;
+  src: url(/Fonts/YekanBakh-SemiBold.ttf);
+}
+::selection{
+    background-color:#2ecc71;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: yekan;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    background-color: #8e44ad;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(282.58, 39%, 53%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(5.61, 78%, 56.99999999999999%) 0, transparent 55%);
+
+}
+.container {
+  width: 400px;
+  padding: 40px;
+
+  backdrop-filter: blur(19px) saturate(132%);
+  -webkit-backdrop-filter: blur(19px) saturate(132%);
+  background-color: rgba(61, 73, 100, 0.71);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+button,
+textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: center;
+  padding: 15px 0;  
+  border-radius: 10px;
+  margin: 5px 0;
+}
+textarea{
+    background-color: #bdc3c7;
+    font-size: 1.2rem;
+}
+button{
+  background-color: #2ecc71;
+  transition: all .2s ease;
+    font-size: 1.1rem;
+
+}
+h1 {
+  color:#e0aa75;
+  margin-bottom: 20px;
+  text-align: center;
+}
